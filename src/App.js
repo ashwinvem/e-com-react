@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/" component={Home}/>
+          <Route exact path="/e-com-react" component={Home}/>
           <Route exact path="/cart" component={Cart}/>
         </Switch>
       </Router>
