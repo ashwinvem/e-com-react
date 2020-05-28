@@ -71,13 +71,19 @@ export default class Cart extends Component {
         }
     }
 
+    routeLogo=()=>{
+        this.props.history.push({
+            pathname : "/e-com-react"
+        })
+    }
+
     render() {
         const { cart, total, discTot, disPrice } = this.state
         return (
             <>
                 <nav class="navbar navbar-dark">
                     <a class="navbar-brand" href="#">
-                        <FontAwesomeIcon icon={faStar} color="gold" />
+                        <FontAwesomeIcon icon={faStar} color="gold" onClick={this.routeLogo} />
                     </a>
                     <div className="icons">
                         <FontAwesomeIcon icon={faSearch} color="white" size="2x" />

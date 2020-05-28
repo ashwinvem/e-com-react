@@ -45,12 +45,13 @@ a{
 .navbar{
   background-color: blue;
 }
-.svg-inline--fa.fa-w-16{
-  width: 7rem;
-  cursor: pointer;
+.search{
+  height: 33px;
+  border-radius: 9px;
 }
 .svg-inline--fa{
   cursor: pointer;
+  margin: auto 1.5rem;
 }
 .items-list{
   display: grid;
@@ -173,20 +174,33 @@ span.bubble{
   margin-right: 6%;
 }
 
+.MuiSlider-rail {
+  height: 8px !important;
+  background-color: grey !important;
+  border-radius: 5px !important;
+}
+.MuiSlider-track{
+  height: 8px !important;
+  background-color: blue !important;
+} 
+.MuiSlider-thumb{
+  height: 15px !important;
+  width: 15px !important;
+  background-color: blue !important;
+  margin-top: -4px !important;
+}
+.MuiSlider-root{
+  color: blue !important;
+}
+.PrivateValueLabel-circle-5 {
+  height: 55px !important;
+  background-color: transparent !important;
+}
+.PrivateValueLabel-label-6 {
+  color: black !important;
+}
 
 
-
-
-/* span.bubble:nth-child(1)::before{
-  content: '';
-  display: block;
-  width: 70%;
-  height: 0.6%;
-  position: absolute;
-  z-index: 1;
-  background-color: blue;
-  top: 9%;
-} */
 
 
 
