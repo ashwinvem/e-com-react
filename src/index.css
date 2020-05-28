@@ -192,11 +192,11 @@ span.bubble{
 .MuiSlider-root{
   color: blue !important;
 }
-.PrivateValueLabel-circle-5 {
+.PrivateValueLabel-circle-5,.jss5 {
   height: 55px !important;
   background-color: transparent !important;
 }
-.PrivateValueLabel-label-6 {
+.PrivateValueLabel-label-6,.jss6 {
   color: black !important;
 }
 
